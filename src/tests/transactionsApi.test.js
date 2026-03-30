@@ -3,7 +3,7 @@ import { calcPoints } from "../api/transactionsApi";
 //  calculate reward Points as per the example given
 
 describe("calcPoints()", () => {
-  describe("checking points for transactions (<= $200)", () => {
+  describe("checking points for transactions", () => {
     test("awards 90 points for amount $120", () => {
       expect(calcPoints(120)).toBe(90);
     });
