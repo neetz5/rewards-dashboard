@@ -161,37 +161,6 @@ const styles = {
     background: "#fff",
     color: "#111",
   },
-  metrics: {
-    display: "grid",
-    gridTemplateColumns: "repeat(4, 1fr)",
-    gap: 10,
-    marginBottom: "1.5rem",
-  },
-  tabs: {
-    display: "flex",
-    gap: 4,
-    marginBottom: "1rem",
-  },
-  tab: {
-    padding: "6px 14px",
-    fontSize: 13,
-    border: "0.5px solid #e0e0e0",
-    borderRadius: 8,
-    background: "none",
-    cursor: "pointer",
-    color: "#666",
-  },
-  tabActive: {
-    background: "#f5f5f3",
-    color: "#111",
-    fontWeight: 500,
-    borderColor: "#ccc",
-  },
-  customerGrid: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-    gap: 12,
-  },
 };
 
 export default App;
