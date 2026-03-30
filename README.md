@@ -1,3 +1,28 @@
+# Rewards Dashboard
+
+A React app that simulates an async API call to fetch 3 months of transaction data and calculates reward points.
+
+## Reward Logic
+
+| Transaction Amount  | Points Awarded |
+| ------------------- | -------------- |
+| > $100              | x2 points      |
+| $50 < amount < $100 | x1 point       |
+
+e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points
+
+## Project Structure
+
+src/
+├── api/
+│ └── transactionsApi.js ← Mock async fetch + calcPoints() logic
+├── hooks/
+│ └── useTransactions.js ← Custom React hook (loading / error / data)
+├── components/
+│ ├── RewardCard.jsx ← Summary reward card
+│ └── TransactionTable.jsx ← Transaction ledger
+└── App.jsx ← Layout
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
