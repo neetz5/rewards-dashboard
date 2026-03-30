@@ -1,4 +1,5 @@
 # Rewards Dashboard
+<img width="1076" height="234" alt="image" src="https://github.com/user-attachments/assets/442f2620-ae42-4bce-8927-d0b61daa183f" />
 
 A React app that simulates an async API call to fetch 3 months of transaction data and calculates reward points.
 
