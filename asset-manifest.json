@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rewards-dashboard/static/css/main.e6c13ad2.css",
+    "main.js": "/rewards-dashboard/static/js/main.11f94cd8.js",
+    "static/js/453.e6fa3a34.chunk.js": "/rewards-dashboard/static/js/453.e6fa3a34.chunk.js",
+    "index.html": "/rewards-dashboard/index.html",
+    "main.e6c13ad2.css.map": "/rewards-dashboard/static/css/main.e6c13ad2.css.map",
+    "main.11f94cd8.js.map": "/rewards-dashboard/static/js/main.11f94cd8.js.map",
+    "453.e6fa3a34.chunk.js.map": "/rewards-dashboard/static/js/453.e6fa3a34.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.11f94cd8.js"
+  ]
+}
